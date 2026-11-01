@@ -1,0 +1,251 @@
+record_date,report_fiscal_year,statement_fiscal_year,restatement_flag,agency_name,gross_cost_bil,earned_revenue_bil,subtotal_bil,change_in_assumptions_bil,net_cost_bil,source_line_number,source_file,source_format
+2025-09-30,2025,2025,N,Department of Health and Human Services,2070.1,184.3,1885.8,0.5,1886.3,1,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Social Security Administration,1655.7,0.3,1655.4,0.0,1655.4,2,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Defense,1115.4,120.0,995.4,241.9,1237.3,3,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Interest on Treasury Securities held by the public,987.1,0.0,987.1,0.0,987.1,4,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Veterans Affairs,572.7,6.3,566.4,-44.2,522.2,5,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of the Treasury,413.7,116.9,296.8,0.0,296.8,6,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Agriculture,236.5,12.6,223.9,0.0,223.9,7,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Transportation,130.2,1.6,128.6,0.0,128.6,8,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Homeland Security,141.7,18.1,123.6,0.5,124.1,9,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Housing and Urban Development,75.2,3.8,71.4,0.0,71.4,10,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Energy,72.6,5.8,66.8,0.0,66.8,11,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Labor,62.5,0.0,62.5,0.0,62.5,12,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Justice,50.2,1.7,48.5,0.0,48.5,13,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Environmental Protection Agency,37.6,0.6,37.0,0.0,37.0,14,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of State,38.1,6.4,31.7,0.2,31.9,15,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of the Interior,34.0,3.5,30.5,0.0,30.5,16,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,National Aeronautics and Space Administration,23.9,0.4,23.5,0.0,23.5,17,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Commerce,27.1,8.6,18.5,0.0,18.5,18,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Agency for International Development,16.8,0.9,15.9,0.0,15.9,19,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Railroad Retirement Board,14.9,0.0,14.9,0.0,14.9,20,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,United States Postal Service,90.6,79.1,11.5,0.0,11.5,21,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Federal Communications Commission,11.1,0.4,10.7,0.0,10.7,22,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,National Science Foundation,9.9,0.0,9.9,0.0,9.9,23,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Small Business Administration,12.4,4.4,8.0,0.0,8.0,24,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,National Credit Union Administration,0.4,0.1,0.3,0.0,0.3,25,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,General Services Administration,1.4,1.1,0.3,0.0,0.3,26,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Pension Benefit Guaranty Corporation,17.1,16.9,0.2,0.0,0.2,27,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,U.S. Nuclear Regulatory Commission,1.0,0.8,0.2,0.0,0.2,28,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,United States International Development Finance Corporation,0.4,0.5,-0.1,0.0,-0.1,29,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Export-Import Bank of the United States,0.1,0.2,-0.1,0.0,-0.1,30,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Farm Credit System Insurance Corporation,0.1,0.4,-0.3,0.0,-0.3,31,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Tennessee Valley Authority,12.3,13.7,-1.4,0.0,-1.4,32,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Securities and Exchange Commission,2.3,4.4,-2.1,0.0,-2.1,33,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,National Railroad Retirement Investment Trust,0.1,2.7,-2.6,0.0,-2.6,34,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Federal Deposit Insurance Corporation,-1.1,15.3,-16.4,0.0,-16.4,35,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Security Assistance Accounts,-4.0,34.7,-38.7,0.0,-38.7,36,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Office of Personnel Management,139.8,34.9,104.9,-180.4,-75.5,37,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Department of Education,-29.2,48.4,-77.6,0.0,-77.6,38,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,All other entities,30.7,2.4,28.3,0.1,28.4,39,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2025,N,Total,8071.4,752.2,7319.2,18.6,7337.8,40,USFR_StmtNetCost_20250101_20250930.csv,csv
+2024-09-30,2024,2024,N,Department of Health and Human Services,1907.3,170.1,1737.2,1.0,1738.2,1,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Social Security Administration,1530.5,0.3,1530.2,0.0,1530.2,2,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Defense,1062.9,67.3,995.6,236.7,1232.3,3,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Interest on Treasury Securities held by the public,909.1,0.0,909.1,0.0,909.1,4,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Veterans Affairs,515.6,5.9,509.7,-37.7,472.0,5,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of the Treasury,321.5,99.2,222.3,0.0,222.3,6,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Agriculture,213.7,10.6,203.1,0.0,203.1,7,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Office of Personnel Management,147.7,31.9,115.8,83.8,199.6,8,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Education,218.8,27.1,191.7,0.0,191.7,9,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Transportation,116.8,1.5,115.3,0.0,115.3,10,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Homeland Security,118.4,17.0,101.4,0.0,101.4,11,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Energy,81.3,5.8,75.5,0.0,75.5,12,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Security Assistance Accounts,99.5,25.1,74.4,0.0,74.4,13,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Justice,49.4,1.9,47.5,0.0,47.5,14,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Housing and Urban Development,51.2,4.4,46.8,0.0,46.8,15,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Labor,40.6,0.0,40.6,0.0,40.6,16,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of State,44.2,6.1,38.1,-0.3,37.8,17,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of the Interior,32.1,3.4,28.7,0.0,28.7,18,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,National Aeronautics and Space Administration,25.0,0.5,24.5,0.0,24.5,19,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Agency for International Development,23.5,0.1,23.4,0.0,23.4,20,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Federal Communications Commission,17.6,0.4,17.2,0.0,17.2,21,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Department of Commerce,20.2,4.7,15.5,0.0,15.5,22,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Railroad Retirement Board,14.6,0.0,14.6,0.0,14.6,23,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Environmental Protection Agency,14.3,0.6,13.7,0.0,13.7,24,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,United States Postal Service,89.4,77.8,11.6,0.0,11.6,25,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Pension Benefit Guaranty Corporation,35.3,24.8,10.5,0.0,10.5,26,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,National Science Foundation,9.4,0.0,9.4,0.0,9.4,27,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Smithsonian Institution,1.6,0.4,1.2,0.0,1.2,28,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Millennium Challenge Corporation,0.7,0.0,0.7,0.0,0.7,29,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,National Credit Union Administration,0.4,0.1,0.3,0.0,0.3,30,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,U.S. Nuclear Regulatory Commission,0.9,0.7,0.2,0.0,0.2,31,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Securities and Exchange Commission,3.1,3.4,-0.3,0.0,-0.3,32,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Farm Credit System Insurance Corporation,0.1,0.4,-0.3,0.0,-0.3,33,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Export-Import Bank of the United States,-0.1,0.2,-0.3,0.0,-0.3,34,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,United States International Development Finance Corporation,0.1,0.4,-0.3,0.0,-0.3,35,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,General Services Administration,1.6,2.1,-0.5,0.0,-0.5,36,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Tennessee Valley Authority,11.1,12.3,-1.2,0.0,-1.2,37,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,National Railroad Retirement Investment Trust,0.1,4.6,-4.5,0.0,-4.5,38,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Small Business Administration,-0.2,4.5,-4.7,0.0,-4.7,39,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Federal Deposit Insurance Corporation,21.9,35.5,-13.6,0.0,-13.6,40,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,All other entities,21.0,1.8,19.2,0.1,19.3,41,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2024,N,Total,7772.2,652.9,7119.3,283.6,7402.9,42,USFR_StmtNetCost_20240101_20241231.json,json
+2025-09-30,2025,2024,Y,Department of Health and Human Services,1907.3,170.1,1737.2,1.0,1738.2,1,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Social Security Administration,1530.5,0.3,1530.2,0.0,1530.2,2,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Defense,1049.0,67.3,981.7,236.7,1218.4,3,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Interest on Treasury Securities held by the public,909.1,0.0,909.1,0.0,909.1,4,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Veterans Affairs,515.6,5.9,509.7,-37.7,472.0,5,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of the Treasury,321.5,99.2,222.3,0.0,222.3,6,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Agriculture,213.7,10.6,203.1,0.0,203.1,7,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Transportation,116.8,1.5,115.3,0.0,115.3,8,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Homeland Security,118.4,17.0,101.4,0.0,101.4,9,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Housing and Urban Development,51.2,4.4,46.8,0.0,46.8,10,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Energy,81.3,5.8,75.5,0.0,75.5,11,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Labor,40.6,0.0,40.6,0.0,40.6,12,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Justice,49.4,1.9,47.5,0.0,47.5,13,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Environmental Protection Agency,14.3,0.6,13.7,0.0,13.7,14,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of State,44.2,6.1,38.1,-0.3,37.8,15,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of the Interior,32.1,3.4,28.7,0.0,28.7,16,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,National Aeronautics and Space Administration,25.0,0.5,24.5,0.0,24.5,17,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Commerce,20.2,4.7,15.5,0.0,15.5,18,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Agency for International Development,23.5,0.1,23.4,0.0,23.4,19,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Railroad Retirement Board,14.6,0.0,14.6,0.0,14.6,20,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,United States Postal Service,89.4,77.8,11.6,0.0,11.6,21,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Federal Communications Commission,17.6,0.4,17.2,0.0,17.2,22,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,National Science Foundation,9.4,0.0,9.4,0.0,9.4,23,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Small Business Administration,-0.2,4.5,-4.7,0.0,-4.7,24,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,National Credit Union Administration,0.4,0.1,0.3,0.0,0.3,25,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,General Services Administration,1.6,2.1,-0.5,0.0,-0.5,26,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Pension Benefit Guaranty Corporation,35.3,24.8,10.5,0.0,10.5,27,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,U.S. Nuclear Regulatory Commission,0.9,0.7,0.2,0.0,0.2,28,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,United States International Development Finance Corporation,0.1,0.4,-0.3,0.0,-0.3,29,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Export-Import Bank of the United States,-0.1,0.2,-0.3,0.0,-0.3,30,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Farm Credit System Insurance Corporation,0.1,0.4,-0.3,0.0,-0.3,31,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Tennessee Valley Authority,11.1,12.3,-1.2,0.0,-1.2,32,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Securities and Exchange Commission,3.1,3.4,-0.3,0.0,-0.3,33,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,National Railroad Retirement Investment Trust,0.1,4.6,-4.5,0.0,-4.5,34,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Federal Deposit Insurance Corporation,21.9,35.5,-13.6,0.0,-13.6,35,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Security Assistance Accounts,89.4,42.9,46.5,0.0,46.5,36,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Office of Personnel Management,147.7,31.9,115.8,83.8,199.6,37,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Department of Education,218.8,27.1,191.7,0.0,191.7,38,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,All other entities,25.3,2.2,23.1,0.1,23.2,39,USFR_StmtNetCost_20250101_20250930.csv,csv
+2025-09-30,2025,2024,Y,Total,7750.2,670.7,7079.5,283.6,7363.1,40,USFR_StmtNetCost_20250101_20250930.csv,csv
+2023-09-30,2023,2023,N,Department of Health and Human Services,1875.6,161.2,1714.4,-0.3,1714.1,1,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Veterans Affairs,902.0,5.5,896.5,558.8,1455.3,2,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Social Security Administration,1433.1,0.3,1432.8,0.0,1432.8,3,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Defense,969.0,55.0,914.0,89.3,1003.3,4,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Interest on Treasury Securities held by the public,678.0,0.0,678.0,0.0,678.0,5,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of the Treasury,357.4,53.7,303.7,0.0,303.7,6,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Agriculture,238.1,11.8,226.3,0.0,226.3,7,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Office of Personnel Management,124.0,29.4,94.6,111.9,206.5,8,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Transportation,108.2,1.5,106.7,0.0,106.7,9,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Security Assistance Accounts,109.3,6.1,103.2,0.0,103.2,10,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Homeland Security,111.2,15.6,95.6,1.0,96.6,11,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Energy,86.2,11.3,74.9,0.0,74.9,12,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Housing and Urban Development,71.4,4.1,67.3,0.0,67.3,13,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Justice,51.6,3.7,47.9,0.0,47.9,14,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Labor,45.3,0.0,45.3,0.0,45.3,15,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Pension Benefit Guaranty Corporation,55.0,17.0,38.0,0.0,38.0,16,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Agency for International Development,36.8,0.0,36.8,0.0,36.8,17,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of State,41.6,6.0,35.6,-0.2,35.4,18,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Small Business Administration,35.5,5.2,30.3,0.0,30.3,19,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of the Interior,29.5,3.0,26.5,0.0,26.5,20,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,National Aeronautics and Space Administration,24.8,0.4,24.4,0.0,24.4,21,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Education,50.9,32.4,18.5,0.0,18.5,22,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Federal Communications Commission,18.6,0.4,18.2,0.0,18.2,23,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Railroad Retirement Board,15.6,0.0,15.6,0.0,15.6,24,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Department of Commerce,17.3,4.3,13.0,0.0,13.0,25,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Environmental Protection Agency,12.3,0.4,11.9,0.0,11.9,26,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Federal Deposit Insurance Corporation,21.8,11.9,9.9,0.0,9.9,27,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,National Science Foundation,9.0,0.0,9.0,0.0,9.0,28,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,United States Postal Service,83.8,77.0,6.8,0.0,6.8,29,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Smithsonian Institution,2.0,0.5,1.5,0.0,1.5,30,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Millennium Challenge Corporation,0.7,0.0,0.7,0.0,0.7,31,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,National Credit Union Administration,0.4,0.1,0.3,0.0,0.3,32,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,U.S. Nuclear Regulatory Commission,0.8,0.7,0.1,0.0,0.1,33,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,General Services Administration,0.9,1.1,-0.2,0.0,-0.2,34,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Securities and Exchange Commission,2.4,2.6,-0.2,0.0,-0.2,35,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,United States International Development Finance Corporation,0.0,0.3,-0.3,0.0,-0.3,36,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Farm Credit System Insurance Corporation,0.0,0.6,-0.6,0.0,-0.6,37,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Tennessee Valley Authority,11.4,12.0,-0.6,0.0,-0.6,38,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Export-Import Bank of the United States,-0.9,-0.2,-0.7,0.0,-0.7,39,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,National Railroad Retirement Investment Trust,0.1,2.8,-2.7,0.0,-2.7,40,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,All other entities,31.0,1.8,29.2,0.1,29.3,41,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2023,N,Total,7661.7,539.5,7122.2,760.6,7882.8,42,USFR_StmtNetCost_20230101_20231231.xml,xml
+2024-09-30,2024,2023,Y,Department of Health and Human Services,1875.6,161.2,1714.4,-0.3,1714.1,1,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Social Security Administration,1433.1,0.3,1432.8,0.0,1432.8,2,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Defense,969.0,55.0,914.0,89.3,1003.3,3,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Interest on Treasury Securities held by the public,678.0,0.0,678.0,0.0,678.0,4,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Veterans Affairs,902.0,5.5,896.5,558.8,1455.3,5,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of the Treasury,357.4,53.7,303.7,0.0,303.7,6,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Agriculture,238.1,11.8,226.3,0.0,226.3,7,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Office of Personnel Management,124.0,29.4,94.6,111.9,206.5,8,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Education,50.9,32.4,18.5,0.0,18.5,9,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Transportation,108.2,1.5,106.7,0.0,106.7,10,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Homeland Security,111.2,15.6,95.6,1.0,96.6,11,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Energy,86.2,11.3,74.9,0.0,74.9,12,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Security Assistance Accounts,109.3,6.1,103.2,0.0,103.2,13,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Justice,51.6,3.7,47.9,0.0,47.9,14,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Housing and Urban Development,71.4,4.1,67.3,0.0,67.3,15,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Labor,45.3,0.0,45.3,0.0,45.3,16,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of State,41.6,6.0,35.6,-0.2,35.4,17,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of the Interior,29.5,3.0,26.5,0.0,26.5,18,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,National Aeronautics and Space Administration,24.8,0.4,24.4,0.0,24.4,19,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Agency for International Development,36.8,0.0,36.8,0.0,36.8,20,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Federal Communications Commission,18.6,0.4,18.2,0.0,18.2,21,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Department of Commerce,17.3,4.3,13.0,0.0,13.0,22,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Railroad Retirement Board,15.6,0.0,15.6,0.0,15.6,23,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Environmental Protection Agency,12.3,0.4,11.9,0.0,11.9,24,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,United States Postal Service,83.8,77.0,6.8,0.0,6.8,25,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Pension Benefit Guaranty Corporation,55.0,17.0,38.0,0.0,38.0,26,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,National Science Foundation,9.0,0.0,9.0,0.0,9.0,27,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Smithsonian Institution,2.0,0.5,1.5,0.0,1.5,28,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Millennium Challenge Corporation,0.7,0.0,0.7,0.0,0.7,29,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,National Credit Union Administration,0.4,0.1,0.3,0.0,0.3,30,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,U.S. Nuclear Regulatory Commission,0.8,0.7,0.1,0.0,0.1,31,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Securities and Exchange Commission,2.4,2.6,-0.2,0.0,-0.2,32,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Farm Credit System Insurance Corporation,0.0,0.6,-0.6,0.0,-0.6,33,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Export-Import Bank of the United States,-0.9,-0.2,-0.7,0.0,-0.7,34,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,United States International Development Finance Corporation,0.0,0.3,-0.3,0.0,-0.3,35,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,General Services Administration,0.9,1.1,-0.2,0.0,-0.2,36,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Tennessee Valley Authority,11.4,12.0,-0.6,0.0,-0.6,37,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,National Railroad Retirement Investment Trust,0.1,2.8,-2.7,0.0,-2.7,38,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Small Business Administration,35.5,5.2,30.3,0.0,30.3,39,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Federal Deposit Insurance Corporation,21.8,11.9,9.9,0.0,9.9,40,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,All other entities,31.0,1.8,29.2,0.1,29.3,41,USFR_StmtNetCost_20240101_20241231.json,json
+2024-09-30,2024,2023,Y,Total,7661.7,539.5,7122.2,760.6,7882.8,42,USFR_StmtNetCost_20240101_20241231.json,json
+2023-09-30,2023,2022,Y,Department of Health and Human Services,1812.7,154.1,1658.6,1.4,1660.0,1,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Veterans Affairs,413.8,5.4,408.4,1526.5,1934.9,2,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Social Security Administration,1294.3,0.3,1294.0,0.0,1294.0,3,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Defense,979.7,47.8,931.9,527.0,1458.9,4,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Interest on Treasury Securities held by the public,496.5,0.0,496.5,0.0,496.5,5,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of the Treasury,557.7,31.3,526.4,0.0,526.4,6,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Agriculture,250.4,9.7,240.7,0.0,240.7,7,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Office of Personnel Management,174.1,27.3,146.8,148.2,295.0,8,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Transportation,116.3,1.0,115.3,0.0,115.3,9,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Security Assistance Accounts,102.1,19.3,82.8,0.0,82.8,10,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Homeland Security,102.3,14.7,87.6,1.2,88.8,11,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Energy,50.3,22.1,28.2,0.0,28.2,12,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Housing and Urban Development,28.2,1.9,26.3,0.0,26.3,13,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Justice,42.4,1.2,41.2,0.0,41.2,14,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Labor,42.3,0.0,42.3,0.0,42.3,15,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Pension Benefit Guaranty Corporation,9.9,16.9,-7.0,0.0,-7.0,16,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Agency for International Development,29.5,0.1,29.4,0.0,29.4,17,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of State,40.0,4.8,35.2,3.4,38.6,18,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Small Business Administration,47.8,4.3,43.5,0.0,43.5,19,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of the Interior,28.2,2.7,25.5,0.0,25.5,20,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,National Aeronautics and Space Administration,22.3,0.3,22.0,0.0,22.0,21,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Education,595.1,55.6,539.5,0.0,539.5,22,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Federal Communications Commission,16.0,0.4,15.6,0.0,15.6,23,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Railroad Retirement Board,8.2,0.0,8.2,0.0,8.2,24,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Department of Commerce,15.8,4.2,11.6,0.1,11.7,25,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Environmental Protection Agency,9.9,0.3,9.6,0.0,9.6,26,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Federal Deposit Insurance Corporation,1.9,8.2,-6.3,0.0,-6.3,27,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,National Science Foundation,8.2,0.0,8.2,0.0,8.2,28,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,United States Postal Service,78.7,76.2,2.5,0.0,2.5,29,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Smithsonian Institution,1.7,0.1,1.6,0.0,1.6,30,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Millennium Challenge Corporation,0.7,0.0,0.7,0.0,0.7,31,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,National Credit Union Administration,0.3,0.1,0.2,0.0,0.2,32,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,U.S. Nuclear Regulatory Commission,0.8,0.7,0.1,0.0,0.1,33,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,General Services Administration,0.3,0.9,-0.6,0.0,-0.6,34,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Securities and Exchange Commission,2.6,2.4,0.2,0.0,0.2,35,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,United States International Development Finance Corporation,0.3,0.2,0.1,0.0,0.1,36,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Farm Credit System Insurance Corporation,0.0,0.6,-0.6,0.0,-0.6,37,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Tennessee Valley Authority,11.3,12.4,-1.1,0.0,-1.1,38,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Export-Import Bank of the United States,0.0,0.5,-0.5,0.0,-0.5,39,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,National Railroad Retirement Investment Trust,4.7,1.1,3.6,0.0,3.6,40,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,All other entities,23.4,2.0,21.4,0.1,21.5,41,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Subtotal,7420.7,531.1,6889.6,2207.9,9097.5,42,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Unmatched transactions and balances (Note 1.T),-0.6,0.0,-0.6,0.0,-0.6,43,USFR_StmtNetCost_20230101_20231231.xml,xml
+2023-09-30,2023,2022,Y,Total,7420.1,531.1,6889.0,2207.9,9096.9,44,USFR_StmtNetCost_20230101_20231231.xml,xml

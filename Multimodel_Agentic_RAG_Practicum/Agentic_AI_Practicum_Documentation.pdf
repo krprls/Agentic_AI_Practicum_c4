@@ -1,0 +1,601 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 10136 >>
+stream
+q 0.060 0.100 0.220 rg
+0.00 696.00 612.00 96.00 re f Q
+q 0.350 0.520 0.960 rg
+0.00 696.00 612.00 4.00 re f Q
+BT /F2 9.00 Tf 0.560 0.720 1.000 rg 46.00 760.00 Td (AGENTIC AI  -  TECHNICAL ARCHITECTURE & DOCUMENTATION) Tj ET
+BT /F2 17.50 Tf 1.000 1.000 1.000 rg 46.00 738.00 Td (U.S. Government Financial Report - Multi-Modal Agentic RAG) Tj ET
+BT /F1 10.20 Tf 0.820 0.870 0.950 rg 46.00 720.00 Td (System Setup, Architecture, Autonomous Agent Roles, Deployment Steps, Challenges & Limitations) Tj ET
+BT /F3 8.60 Tf 0.680 0.760 0.900 rg 46.00 705.00 Td (Author: Rama Kotipatruni   |   Dataset: U.S. Treasury Statements of Net Cost \(FY2022-FY2025: XML, JSON, CSV\)) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 654.00 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 654.00 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 661.00 Td (1. Executive Summary & Project Overview) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 642.00 Td (The U.S. Government Financial Report \(USFR\) Multi-Modal Agentic RAG System is an autonomous knowledge and) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 628.80 Td (decision-support application for enterprise and federal financial intelligence. It enables analysts,) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 615.60 Td (auditors, policymakers, and citizens to upload and query heterogeneous enterprise and federal financial) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 602.40 Td (documents \(XML, JSON, CSV, Excel, PDF, TXT, and Markdown\) using natural language.) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 586.20 Td (Traditional Retrieval-Augmented Generation \(RAG\) systems struggle with financial statements because) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 573.00 Td (character-level text splitting severs numbers from their agency and fiscal-year labels, and Large Language) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 559.80 Td (Models \(LLMs\) are prone to arithmetic hallucinations when computing rankings or year-over-year changes. This) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 546.60 Td (system solves both problems by combining multi-format schema normalization, four-level semantic chunking in) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 533.40 Td (ChromaDB, deterministic pandas analytical tools, and a 6-node LangGraph multi-agent workflow with an) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 520.20 Td (automated numeric grounding validator.) Tj ET
+q 0.120 0.210 0.420 rg
+46.00 486.00 520.00 18.00 re f Q
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 51.00 491.80 Td (Capstone Task) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 175.80 491.80 Td (Requirement Summary) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 394.20 491.80 Td (Implementation Module\(s\)) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 457.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 475.50 Td (1. Project Foundation) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 486.00 m 170.80 457.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 475.50 Td (Repository layout, .env config, modular structure) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 486.00 m 389.20 457.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 475.50 Td (src/config.py, setup_key.py,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 464.50 Td (.env.example) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 428.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 446.50 Td (2. User Interaction Layer) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 457.00 m 170.80 428.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 446.50 Td (Web UI + CLI for uploads and natural-language Q&A) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 457.00 m 389.20 428.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 446.50 Td (app.py \(Streamlit 3-tab UI\), main.py) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 435.50 Td (\(REPL\)) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 399.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 417.50 Td (3. Document Ingestion) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 428.00 m 170.80 399.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 417.50 Td (Multi-format loading \(XML, JSON, CSV, XLSX, PDF,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 406.50 Td (TXT\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 428.00 m 389.20 399.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 417.50 Td (src/ingestion/loaders.py, ingest.py) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 370.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 388.50 Td (4. Semantic Chunking) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 399.00 m 170.80 370.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 388.50 Td (Multi-granularity financial chunks + recursive) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 377.50 Td (text split) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 399.00 m 389.20 370.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 388.50 Td (src/ingestion/documents.py \(295 chunks\)) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 341.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 359.50 Td (5. Vector Knowledge Store) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 370.00 m 170.80 341.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 359.50 Td (Local embeddings + persistent vector DB) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 370.00 m 389.20 341.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 359.50 Td (src/vectorstore.py \(ChromaDB + bge-) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 348.50 Td (small\)) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 312.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 330.50 Td (6. Intelligent Retrieval) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 341.00 m 170.80 312.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 330.50 Td (Hybrid similarity search + structured analytical) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 319.50 Td (tools) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 341.00 m 389.20 312.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 330.50 Td (src/agents/tools.py, src/data_store.py) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 283.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 301.50 Td (7. Grounded RAG Pipeline) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 312.00 m 170.80 283.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 301.50 Td (Numbered context [S1..Sn] + strict inline) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 290.50 Td (citations) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 312.00 m 389.20 283.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 301.50 Td (src/agents/graph.py \(reasoner node\)) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 254.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 272.50 Td (8. Agent-Based Reasoning) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 283.00 m 170.80 254.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 272.50 Td (Autonomous planning, tool execution, validation) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 261.50 Td (loop) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 283.00 m 389.20 254.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 272.50 Td (src/agents/graph.py \(6-node LangGraph\)) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 225.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 243.50 Td (9. Safety & Reliability) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 254.00 m 170.80 225.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 243.50 Td (Prompt-injection/PII guardrails + numeric) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 232.50 Td (verification) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 254.00 m 389.20 225.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 243.50 Td (src/guardrails.py, validator node) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 196.00 520.00 29.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 214.50 Td (10. Deployment & Docs) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 225.00 m 170.80 196.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 214.50 Td (Streamlit deployment, architecture diagrams &) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 203.50 Td (tests) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 389.20 225.00 m 389.20 196.00 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 214.50 Td (docs/ARCHITECTURE.md,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 394.20 203.50 Td (tests/test_system.py) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 166.00 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 166.00 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 173.00 Td (2. System Setup & Environment Configuration) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 143.00 Td (2.1 Technology Stack & Open-Source Dependencies) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 140.00 m 566.00 140.00 l S Q
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 130.00 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 130.00 Td (Agent Orchestration:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( LangGraph \(>=0.2.0\) and LangChain Core/Community \(>=0.3.0\) for state-machine agent) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 117.20 Td (workflows and tool binding.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 102.90 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 102.90 Td (LLM Providers:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( Google Gemini \('gemini-3-flash-preview' with automatic fallback to 'gemini-2.5-flash-lite',) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 90.10 Td ('gemini-3.1-flash-lite', and 'gemini-2.5-pro'\) for cloud inference, or Ollama \('llama3.1:8b'\) for 100% local) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 77.30 Td (open-source execution.) Tj ET
+q 0.84 0.87 0.93 RG 0.6 w 46.00 42.00 m 566.00 42.00 l S Q
+BT /F1 8.0 Tf 0.450 0.490 0.580 rg 46.00 30.00 Td (USFR Multi-Modal Agentic RAG System - Technical Documentation) Tj ET
+BT /F2 8.0 Tf 0.450 0.490 0.580 rg 514.00 30.00 Td (Page 1 of 4) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 10672 >>
+stream
+q 0.070 0.110 0.220 rg
+0.00 764.00 612.00 28.00 re f Q
+BT /F2 8.50 Tf 0.820 0.870 0.960 rg 46.00 774.00 Td (USFR Multi-Modal Agentic RAG System  |  Architecture, Setup, Agent Roles & Deployment) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 742.00 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 742.00 Td (Local Embeddings & Vector DB:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( HuggingFace 'BAAI/bge-small-en-v1.5' \(sentence-transformers, CPU-friendly,) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 729.20 Td (cosine-normalized\) persisted in ChromaDB \('chroma_store/'\).) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 714.90 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 714.90 Td (Multi-Format Parsing & UI:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( pandas, openpyxl, ElementTree, and pypdf for ingestion; Streamlit and Plotly for) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 702.10 Td (the interactive web dashboard.) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 676.80 Td (2.2 Step-by-Step Installation & API Key Configuration) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 673.80 m 566.00 673.80 l S Q
+q 0.960 0.970 0.990 rg
+0.800 0.840 0.920 RG 0.70 w
+46.00 513.60 520.00 150.20 re B Q
+q 0.890 0.920 0.980 rg
+46.00 648.80 520.00 15.00 re f Q
+BT /F2 8.30 Tf 0.160 0.240 0.440 rg 54.00 653.30 Td (Terminal Setup & Ingestion Commands) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 637.80 Td (# 1. Create and activate Python 3.11+ virtual environment) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 626.60 Td (python3 -m venv .venv && source .venv/bin/activate) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 615.40 Td (pip install -r requirements.txt) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 604.20 Td () Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 593.00 Td (# 2. Configure API key in .env \(via interactive CLI, flag, or Streamlit sidebar\)) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 581.80 Td (python setup_key.py --key AIzaSyYourGeminiKeyHere) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 570.60 Td (# Or switch to 100% local open-source Ollama:) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 559.40 Td (python setup_key.py --provider ollama --model llama3.1:8b) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 548.20 Td () Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 537.00 Td (# 3. Build / refresh the unified structured table and ChromaDB vector store) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 525.80 Td (python ingest.py --reset) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 483.60 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 483.60 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 490.60 Td (3. System Architecture & Data Pipeline) Tj ET
+q 0.970 0.980 1.000 rg
+0.760 0.820 0.940 RG 0.80 w
+46.00 313.60 520.00 158.00 re B Q
+BT /F2 8.80 Tf 0.120 0.220 0.480 rg 56.00 458.60 Td (Figure 1: End-to-End Multi-Modal Ingestion & 6-Node LangGraph Agentic RAG Workflow) Tj ET
+q 0.890 0.930 1.000 rg
+0.300 0.480 0.850 RG 0.90 w
+56.00 415.60 108.00 36.00 re B Q
+BT /F2 7.80 Tf 0.080 0.180 0.420 rg 61.00 440.60 Td (1. Multi-Format Sources) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 61.00 429.60 Td (FY23 XML | FY24 JSON) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 61.00 419.60 Td (FY25 CSV | Uploads \(PDF/XLSX\)) Tj ET
+q 0.890 0.930 1.000 rg
+0.300 0.480 0.850 RG 0.90 w
+182.00 415.60 114.00 36.00 re B Q
+BT /F2 7.80 Tf 0.080 0.180 0.420 rg 187.00 440.60 Td (2. Loaders & Normalizer) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 187.00 429.60 Td (pandas / ElementTree / pypdf) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 187.00 419.60 Td (13-Col Canonical Schema) Tj ET
+q 0.890 0.930 1.000 rg
+0.300 0.480 0.850 RG 0.90 w
+314.00 415.60 118.00 36.00 re B Q
+BT /F2 7.80 Tf 0.080 0.180 0.420 rg 319.00 440.60 Td (3. Semantic Chunker) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 319.00 429.60 Td (record \(250\) | trend \(40\)) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 319.00 419.60 Td (year \(4\) | overview | text) Tj ET
+q 0.890 0.930 1.000 rg
+0.300 0.480 0.850 RG 0.90 w
+450.00 415.60 106.00 36.00 re B Q
+BT /F2 7.80 Tf 0.080 0.180 0.420 rg 455.00 440.60 Td (4. Knowledge Stores) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 455.00 429.60 Td (ChromaDB \(bge-small\)) Tj ET
+BT /F1 7.10 Tf 0.200 0.240 0.340 rg 455.00 419.60 Td (+ net_cost_unified.csv) Tj ET
+q 0.250 0.380 0.720 RG 1.10 w 164.00 433.60 m 182.00 433.60 l S Q
+q 0.250 0.380 0.720 rg 182.00 433.60 m 177.78 436.28 l 177.78 430.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 296.00 433.60 m 314.00 433.60 l S Q
+q 0.250 0.380 0.720 rg 314.00 433.60 m 309.78 436.28 l 309.78 430.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 432.00 433.60 m 450.00 433.60 l S Q
+q 0.250 0.380 0.720 rg 450.00 433.60 m 445.78 436.28 l 445.78 430.92 l h f Q
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+56.00 349.60 74.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 60.00 375.60 Td (Input Guard) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 60.00 364.60 Td (Length / PII) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 60.00 354.60 Td (Injection Check) Tj ET
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+142.00 349.60 78.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 146.00 375.60 Td (Planner Agent) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 146.00 364.60 Td (Intent / Years) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 146.00 354.60 Td (Agency Resolver) Tj ET
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+232.00 349.60 84.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 236.00 375.60 Td (Retriever Agent) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 236.00 364.60 Td (Pandas Tools +) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 236.00 354.60 Td (Chroma Vector) Tj ET
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+328.00 349.60 78.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 332.00 375.60 Td (Reasoner Agent) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 332.00 364.60 Td (Strict Context) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 332.00 354.60 Td (Citations [S#]) Tj ET
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+418.00 349.60 74.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 422.00 375.60 Td (Validator) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 422.00 364.60 Td (Numbers &) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 422.00 354.60 Td (Citation Check) Tj ET
+q 0.120 0.200 0.400 rg
+0.420 0.620 0.980 RG 0.90 w
+504.00 349.60 52.00 38.00 re B Q
+BT /F2 7.60 Tf 1.000 1.000 1.000 rg 508.00 375.60 Td (Finalize) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 508.00 364.60 Td (Sources) Tj ET
+BT /F1 6.90 Tf 0.820 0.880 0.980 rg 508.00 354.60 Td (+ Trace) Tj ET
+q 0.250 0.380 0.720 RG 1.10 w 130.00 368.60 m 142.00 368.60 l S Q
+q 0.250 0.380 0.720 rg 142.00 368.60 m 137.78 371.28 l 137.78 365.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 220.00 368.60 m 232.00 368.60 l S Q
+q 0.250 0.380 0.720 rg 232.00 368.60 m 227.78 371.28 l 227.78 365.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 316.00 368.60 m 328.00 368.60 l S Q
+q 0.250 0.380 0.720 rg 328.00 368.60 m 323.78 371.28 l 323.78 365.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 406.00 368.60 m 418.00 368.60 l S Q
+q 0.250 0.380 0.720 rg 418.00 368.60 m 413.78 371.28 l 413.78 365.92 l h f Q
+q 0.250 0.380 0.720 RG 1.10 w 492.00 368.60 m 504.00 368.60 l S Q
+q 0.250 0.380 0.720 rg 504.00 368.60 m 499.78 371.28 l 499.78 365.92 l h f Q
+q 0.180 0.520 0.360 RG 1.00 w 503.00 415.60 m 503.00 401.60 l S Q
+q 0.180 0.520 0.360 RG 1.00 w 503.00 401.60 m 274.00 401.60 l S Q
+q 0.180 0.520 0.360 RG 1.00 w 274.00 401.60 m 274.00 387.60 l S Q
+q 0.180 0.520 0.360 rg 274.00 387.60 m 276.68 391.82 l 271.32 391.82 l h f Q
+BT /F2 7.20 Tf 0.150 0.450 0.300 rg 338.00 404.60 Td (Hybrid Context Retrieval \([S1..Sn]\)) Tj ET
+q 0.820 0.450 0.120 RG 1.00 w 455.00 349.60 m 455.00 325.60 l S Q
+q 0.820 0.450 0.120 RG 1.00 w 455.00 325.60 m 367.00 325.60 l S Q
+q 0.820 0.450 0.120 RG 1.00 w 367.00 325.60 m 367.00 349.60 l S Q
+q 0.820 0.450 0.120 rg 367.00 349.60 m 364.32 345.38 l 369.68 345.38 l h f Q
+BT /F2 6.90 Tf 0.750 0.360 0.080 rg 374.00 328.60 Td (Self-Correction Retry \(if ungrounded figure\)) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 292.60 Td (3.1 Multi-Format Ingestion & Canonical Schema Normalization) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 289.60 m 566.00 289.60 l S Q
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 279.60 Td (The project ships with three official U.S. Treasury Fiscal Data files spanning FY2022-FY2025 in three) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 266.40 Td (different formats: 'USFR_StmtNetCost_20230101_20231231.xml' \(FY2023 + FY2022 restated\),) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 253.20 Td ('USFR_StmtNetCost_20240101_20241231.json' \(FY2024 + FY2023 restated\), and) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 240.00 Td ('USFR_StmtNetCost_20250101_20250930.csv' \(FY2025 + FY2024 restated\). In addition, users can upload custom) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 226.80 Td (PDF, TXT, Markdown, CSV, Excel \(.xlsx/.xls\), JSON, and XML files up to 25 MB.) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 210.60 Td (In 'src/ingestion/loaders.py', FIELD_MAP maps both API field names \(such as 'stmt_fiscal_year',) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 197.40 Td ('gross_cost_bil_amt', 'restmt_flag'\) and human-readable CSV headers \('Statement Fiscal Year', 'Gross Cost \(in) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 184.20 Td (Billions\)', 'Restatement Flag'\) into a unified 13-column canonical table) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 171.00 Td (\('data/processed/net_cost_unified.csv', 250 deduplicated rows across 40 federal entities\). All numeric) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 157.80 Td (columns are rounded to 1 decimal place to eliminate IEEE-754 floating-point artifacts.) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 130.60 Td (3.2 Four-Level Semantic Chunking Strategy) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 127.60 m 566.00 127.60 l S Q
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 117.60 Td (Rather than splitting financial tables by arbitrary character counts, 'src/ingestion/documents.py') Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 104.40 Td (synthesizes self-contained natural-language chunks at four complementary granularities, each tagged with rich) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 91.20 Td (metadata and a deterministic SHA-1 ID for idempotent ChromaDB upserts:) Tj ET
+q 0.84 0.87 0.93 RG 0.6 w 46.00 42.00 m 566.00 42.00 l S Q
+BT /F1 8.0 Tf 0.450 0.490 0.580 rg 46.00 30.00 Td (USFR Multi-Modal Agentic RAG System - Technical Documentation) Tj ET
+BT /F2 8.0 Tf 0.450 0.490 0.580 rg 514.00 30.00 Td (Page 2 of 4) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 9983 >>
+stream
+q 0.070 0.110 0.220 rg
+0.00 764.00 612.00 28.00 re f Q
+BT /F2 8.50 Tf 0.820 0.870 0.960 rg 46.00 774.00 Td (USFR Multi-Modal Agentic RAG System  |  Architecture, Setup, Agent Roles & Deployment) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 742.00 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 742.00 Td (1. Record Chunks \(250 chunks\):) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( One natural-language block per \(agency, statement FY, report FY\) row) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 729.20 Td (containing gross cost, earned revenue, subtotal, assumption changes, net cost, restatement status, and) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 716.40 Td (source file/line lineage.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 702.10 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 702.10 Td (2. Agency Trend Chunks \(40 chunks\):) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( One multi-year longitudinal summary per agency across FY2022-FY2025 with) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 689.30 Td (pre-computed year-over-year dollar and percentage deltas.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 675.00 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 675.00 Td (3. Year Summary Chunks \(4 chunks\):) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( One macro summary per fiscal year \(FY2022-FY2025\) listing government-wide) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 662.20 Td (totals, top 10 highest-cost agencies, and entities with negative net cost.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 647.90 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 647.90 Td (4. Dataset Overview & Free-Text Chunks:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( A domain glossary explaining federal accounting terms \(Gross Cost,) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 635.10 Td (Earned Revenue, Changes in Assumptions, Restatement Flag\) plus RecursiveCharacterTextSplitter chunks \(900) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 622.30 Td (chars, 150 overlap\) for uploaded PDFs/TXT.) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 586.00 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 586.00 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 593.00 Td (4. Autonomous Agent Roles \(LangGraph Workflow\)) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 574.00 Td (The core reasoning engine in 'src/agents/graph.py' is implemented as a compiled LangGraph StateGraph with six) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 560.80 Td (specialized nodes and conditional edges:) Tj ET
+q 0.120 0.210 0.420 rg
+46.00 526.60 520.00 18.00 re f Q
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 51.00 532.40 Td (Agent / Node) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 155.00 532.40 Td (Primary Responsibility) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 363.00 532.40 Td (Tools / Mechanisms Used) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 475.60 520.00 51.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 516.10 Td (1. Input Guard) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 505.10 Td (\(input_guard\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 526.60 m 150.00 475.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 516.10 Td (Pre-LLM security and input validation) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 505.10 Td (gatekeeper. Blocks malicious or invalid inputs) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 494.10 Td (immediately.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 526.60 m 358.00 475.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 516.10 Td (Regex checks for prompt injection \('ignore) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 505.10 Td (previous instructions', 'jailbreak'\), unsafe) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 494.10 Td (queries, length \(>1000 chars\), and PII \(SSN,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 483.10 Td (credit card\).) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 435.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 465.10 Td (2. Planner Agent) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 454.10 Td (\(planner\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 475.60 m 150.00 435.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 465.10 Td (Rewrites follow-up queries using chat history,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 454.10 Td (classifies intent, resolves agency) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 443.10 Td (abbreviations, and plans tool calls.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 475.60 m 358.00 435.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 465.10 Td (LLM structured output \(Plan Pydantic schema\) +) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 454.10 Td (35+ agency alias map \(DoD, HHS, SSA, VA, OPM\) +) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 443.10 Td (deterministic _heuristic_plan\(\) fallback.) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 384.60 520.00 51.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 425.10 Td (3. Retriever Agent) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 414.10 Td (\(retriever\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 435.60 m 150.00 384.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 425.10 Td (Executes hybrid retrieval according to the) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 414.10 Td (structured Plan and formats numbered context) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 403.10 Td (blocks [S1..Sn].) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 435.60 m 358.00 384.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 425.10 Td (lookup_financials, rank_agencies,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 414.10 Td (compare_fiscal_years, restatement_differences) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 403.10 Td (\(pandas\) + semantic_search \(ChromaDB cosine) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 392.10 Td (similarity\).) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 344.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 374.10 Td (4. Reasoner Agent) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 363.10 Td (\(reasoner\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 384.60 m 150.00 344.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 374.10 Td (Synthesizes a concise, grounded markdown) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 363.10 Td (response strictly from [S1..Sn] at) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 352.10 Td (temperature=0.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 384.60 m 358.00 344.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 374.10 Td (Strict system prompt requiring [S#] citations on) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 363.10 Td (every factual claim and prohibiting unverified) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 352.10 Td (mental arithmetic.) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 304.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 334.10 Td (5. Validator Agent) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 323.10 Td (\(validator\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 344.60 m 150.00 304.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 334.10 Td (Deterministically checks numeric accuracy and) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 323.10 Td (citation integrity; triggers self-correction) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 312.10 Td (retry if needed.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 344.60 m 358.00 304.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 334.10 Td (ungrounded_numbers\(\) \(parses numbers, scales) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 323.10 Td (trillions<->billions, checks +/-0.05B tolerance\)) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 312.10 Td (+ has_citations\(\) \([S#] existence check\).) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 264.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 294.10 Td (6. Finalize Node) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 283.10 Td (\(finalize\)) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 150.00 304.60 m 150.00 264.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 294.10 Td (Packages verified answer, attaches cited source) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 283.10 Td (metadata, and records full execution trace for) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 155.00 272.10 Td (the UI.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 304.60 m 358.00 264.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 294.10 Td (Filters context blocks to cited [S#] IDs;) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 283.10 Td (appends verification note if retry budget) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 272.10 Td (\(MAX_VALIDATION_RETRIES=1\) is exhausted.) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 234.60 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 234.60 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 241.60 Td (5. Deployment Steps & Verification Suite) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 211.60 Td (5.1 Running Locally \(Streamlit Web UI & CLI REPL\)) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 208.60 m 566.00 208.60 l S Q
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 198.60 Td (The application supports both a browser-based multi-tab Streamlit dashboard \('app.py'\) and an interactive) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 185.40 Td (command-line REPL \('main.py'\). On first launch, 'ensure_knowledge_base\(\)' automatically bootstraps) Tj ET
+BT /F1 9.50 Tf 0.140 0.170 0.230 rg 46.00 172.20 Td ('data/raw/' and populates 'chroma_store/' and 'data/processed/net_cost_unified.csv'.) Tj ET
+q 0.84 0.87 0.93 RG 0.6 w 46.00 42.00 m 566.00 42.00 l S Q
+BT /F1 8.0 Tf 0.450 0.490 0.580 rg 46.00 30.00 Td (USFR Multi-Modal Agentic RAG System - Technical Documentation) Tj ET
+BT /F2 8.0 Tf 0.450 0.490 0.580 rg 514.00 30.00 Td (Page 3 of 4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 9900 >>
+stream
+q 0.070 0.110 0.220 rg
+0.00 764.00 612.00 28.00 re f Q
+BT /F2 8.50 Tf 0.820 0.870 0.960 rg 46.00 774.00 Td (USFR Multi-Modal Agentic RAG System  |  Architecture, Setup, Agent Roles & Deployment) Tj ET
+q 0.960 0.970 0.990 rg
+0.800 0.840 0.920 RG 0.70 w
+46.00 625.40 520.00 116.60 re B Q
+q 0.890 0.920 0.980 rg
+46.00 727.00 520.00 15.00 re f Q
+BT /F2 8.30 Tf 0.160 0.240 0.440 rg 54.00 731.50 Td (Application Execution & Testing Commands) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 716.00 Td (# Launch the Streamlit Web UI \(http://localhost:8501\)) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 704.80 Td (.venv/bin/streamlit run app.py) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 693.60 Td () Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 682.40 Td (# Launch the Interactive Terminal REPL) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 671.20 Td (.venv/bin/python main.py) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 660.00 Td () Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 648.80 Td (# Run the Automated Pytest Verification Suite \(10 tests\)) Tj ET
+BT /F4 8.20 Tf 0.120 0.160 0.260 rg 54.00 637.60 Td (.venv/bin/pytest -v) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 606.40 Td (5.2 Cloud & Container Deployment) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 603.40 m 566.00 603.40 l S Q
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 593.40 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 593.40 Td (Streamlit Community Cloud:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( Push repository to GitHub \('.env' and 'chroma_store/' are excluded via) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 580.60 Td ('.gitignore'\). Set 'app.py' as the entrypoint and add 'GEMINI_API_KEY' in App Settings -> Secrets. The app) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 567.80 Td (auto-ingests the USFR dataset on cold start.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 553.50 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 553.50 Td (100% Local / Air-Gapped Deployment:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( Install Ollama, pull 'llama3.1:8b', and set 'LLM_PROVIDER=ollama' in) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 540.70 Td ('.env'. Combined with local HuggingFace 'BAAI/bge-small-en-v1.5' embeddings and ChromaDB, the entire stack) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 527.90 Td (runs offline with zero external API calls.) Tj ET
+q 0.920 0.950 1.000 rg
+0.750 0.830 0.960 RG 0.80 w
+46.00 491.60 520.00 22.00 re B Q
+q 0.200 0.400 0.850 rg
+46.00 491.60 4.50 22.00 re f Q
+BT /F2 12.00 Tf 0.080 0.160 0.360 rg 57.00 498.60 Td (6. Challenges Faced & System Limitations) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 468.60 Td (6.1 Key Engineering Challenges & How They Were Solved) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 465.60 m 566.00 465.60 l S Q
+q 0.120 0.210 0.420 rg
+46.00 437.60 520.00 18.00 re f Q
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 51.00 443.40 Td (Challenge Encountered) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 175.80 443.40 Td (Root Cause) Tj ET
+BT /F2 8.70 Tf 1.000 1.000 1.000 rg 363.00 443.40 Td (Engineering Solution Implemented) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 397.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 427.10 Td (1. Heterogeneous Multi-Year) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 416.10 Td (File Formats) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 437.60 m 170.80 397.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 427.10 Td (FY2023 data arrives as XML with API tags,) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 416.10 Td (FY2024 as nested JSON, and FY2025 as CSV) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 405.10 Td (with display headers.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 437.60 m 358.00 397.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 427.10 Td (Built unified readers in loaders.py and) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 416.10 Td (FIELD_MAP to normalize all three formats into a) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 405.10 Td (13-column canonical table.) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 357.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 387.10 Td (2. Floating-Point Artifacts) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 376.10 Td (in Raw Data) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 397.60 m 170.80 357.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 387.10 Td (XML and JSON files contained IEEE-754) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 376.10 Td (artifacts such as 1.39999999999999 instead) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 365.10 Td (of 1.4 billion.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 397.60 m 358.00 357.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 387.10 Td (Applied pd.to_numeric\(...\).round\(1\) during) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 376.10 Td (normalization so all figures match official) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 365.10 Td (published Treasury tables.) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 317.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 347.10 Td (3. Prior-Year Restatement) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 336.10 Td (Double-Counting) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 357.60 m 170.80 317.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 347.10 Td (Each annual report includes restated prior-) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 336.10 Td (year figures \(restatement_flag='Y'\)) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 325.10 Td (alongside current-year rows \('N'\).) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 357.60 m 358.00 317.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 347.10 Td (Implemented FinancialDataStore.preferred\(\) to) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 336.10 Td (default to original figures \('N'\) while exposing) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 325.10 Td (restatement_diff\(\) for revision queries.) Tj ET
+q 1.000 1.000 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 277.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 307.10 Td (4. LLM Arithmetic & Ranking) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 296.10 Td (Hallucinations) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 317.60 m 170.80 277.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 307.10 Td (LLMs frequently miscalculate multi-row) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 296.10 Td (rankings, sums, or percentage changes over) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 285.10 Td (raw text chunks.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 317.60 m 358.00 277.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 307.10 Td (Offloaded all lookups, rankings, and YoY deltas) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 296.10 Td (to deterministic pandas tools and added) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 285.10 Td (ungrounded_numbers\(\) validation.) Tj ET
+q 0.970 0.980 1.000 rg
+0.850 0.880 0.940 RG 0.50 w
+46.00 237.60 520.00 40.00 re B Q
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 267.10 Td (5. Model Deprecation & API) Tj ET
+BT /F2 8.40 Tf 0.130 0.160 0.230 rg 51.00 256.10 Td (Resilience) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 170.80 277.60 m 170.80 237.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 267.10 Td (Older model aliases \('gemini-2.5-flash'\)) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 256.10 Td (return 404 NOT_FOUND for newly issued) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 175.80 245.10 Td (Gemini API keys.) Tj ET
+q 0.860 0.890 0.940 RG 0.50 w 358.00 277.60 m 358.00 237.60 l S Q
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 267.10 Td (Updated default to 'gemini-3-flash-preview' with) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 256.10 Td (automatic multi-model fallbacks in src/llm.py) Tj ET
+BT /F1 8.40 Tf 0.130 0.160 0.230 rg 363.00 245.10 Td (plus heuristic planner fallback.) Tj ET
+BT /F2 10.50 Tf 0.140 0.260 0.550 rg 46.00 218.60 Td (6.2 Current Limitations & Future Roadmap) Tj ET
+q 0.840 0.880 0.950 RG 0.60 w 46.00 215.60 m 566.00 215.60 l S Q
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 205.60 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 205.60 Td (Scanned Image-Only PDFs:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( The PDF loader \('pypdf'\) extracts digital text streams. Scanned image-only PDFs) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 192.80 Td (without an embedded text layer require an OCR pre-processing stage \(e.g., Tesseract or Google Document AI\).) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 178.50 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 178.50 Td (Pre-Loaded Financial Statement Scope:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( The default Treasury dataset covers the Statements of Net Cost) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 165.70 Td (\(FY2022-FY2025\). Answering questions about federal tax revenue collections or debt balance sheets requires) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 152.90 Td (uploading the corresponding Treasury files via the sidebar uploader.) Tj ET
+BT /F2 9.30 Tf 0.200 0.400 0.850 rg 50.00 138.60 Td (Х) Tj ET
+BT /F2 9.30 Tf 0.100 0.140 0.220 rg 61.00 138.60 Td (Single-Pass Validator Retry Cap:) Tj /F1 9.30 Tf 0.150 0.180 0.240 rg ( To maintain sub-10-second response latency, automatic self-correction) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 125.80 Td (between the Validator and Reasoner is capped at MAX_VALIDATION_RETRIES=1; if still unverified, a transparent) Tj ET
+BT /F1 9.30 Tf 0.150 0.180 0.240 rg 61.00 113.00 Td (warning banner is attached.) Tj ET
+q 0.84 0.87 0.93 RG 0.6 w 46.00 42.00 m 566.00 42.00 l S Q
+BT /F1 8.0 Tf 0.450 0.490 0.580 rg 46.00 30.00 Td (USFR Multi-Modal Agentic RAG System - Technical Documentation) Tj ET
+BT /F2 8.0 Tf 0.450 0.490 0.580 rg 514.00 30.00 Td (Page 4 of 4) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R /F4 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+14 0 obj
+<< /Type /Catalog /Pages 13 0 R >>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000000319 00000 n 
+0000000414 00000 n 
+0000010603 00000 n 
+0000010760 00000 n 
+0000021485 00000 n 
+0000021642 00000 n 
+0000031677 00000 n 
+0000031835 00000 n 
+0000041788 00000 n 
+0000041947 00000 n 
+0000042025 00000 n 
+trailer
+<< /Size 15 /Root 14 0 R >>
+startxref
+42076
+%%EOF

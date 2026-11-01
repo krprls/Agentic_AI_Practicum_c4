@@ -1,0 +1,16 @@
+id,fy,fmt,question,intent,guard_pass,fb_intent_ok,fb_years_ok,fb_agencies_ok,fb_metric_ok,fb_plan_exact,n_contexts,numbers_total,numbers_found,ctx_recall,order_ok,names_ok,phrases_ok,retrieval_pass,validator_golden_accepted,validator_no_citation_rejected,validator_catches_p10,validator_catches_p5,validator_catches_p1,offline_seconds
+1,2023,XML,Which 5 agencies had the highest net cost in FY2023?,ranking,True,True,False,True,True,False,1,5,5,1.0,True,,,True,True,True,True,True,True,0.024
+2,2023,XML,"What were the gross cost, earned revenue, changes in assumptions, and net cost for the Department of Veterans Affairs in FY2023?",lookup,True,False,False,True,False,False,1,5,5,1.0,,,,True,True,True,True,True,True,0.017
+3,2023,XML,What was the government-wide Total net cost in FY2023 and how did it compare to FY2022?,comparison,True,True,False,True,True,False,2,4,4,1.0,,,,True,True,True,True,True,True,0.013
+4,2023,XML,Which agencies had negative net cost in FY2023?,ranking,True,False,False,True,True,False,1,7,7,1.0,True,True,,True,True,True,False,True,False,0.012
+5,2023,XML,How did the Department of Education's net cost change from FY2022 to FY2023?,comparison,True,True,False,True,True,False,2,4,4,1.0,,,,True,True,True,True,True,True,0.014
+6,2024,JSON,Which 5 agencies had the highest net cost in FY2024?,ranking,True,True,False,True,True,False,1,5,5,1.0,True,,,True,True,True,True,True,True,0.011
+7,2024,JSON,"What were the gross cost, earned revenue, changes in assumptions, and net cost for the Department of Defense in FY2024?",lookup,True,False,False,True,False,False,1,5,5,1.0,,,,True,True,True,True,True,True,0.008
+8,2024,JSON,How did Interest on Treasury Securities held by the public change from FY2023 to FY2024?,comparison,True,True,False,False,True,False,2,4,4,1.0,,,,True,True,True,True,True,True,0.013
+9,2024,JSON,Which agency had the lowest (most negative) net cost in FY2024?,ranking,True,True,False,False,True,False,1,5,3,0.6,True,,,False,,True,True,True,True,0.011
+10,2024,JSON,Were any FY2023 agency net cost figures revised when restated in the FY2024 report?,restatement,True,True,False,False,True,False,2,1,1,1.0,,,True,True,True,True,True,True,True,0.012
+11,2025,CSV,Which 5 agencies had the highest net cost in FY2025?,ranking,True,True,False,True,True,False,1,5,5,1.0,True,,,True,True,True,True,True,True,0.011
+12,2025,CSV,"What were the gross cost, earned revenue, changes in assumptions, and net cost for the Office of Personnel Management in FY2025?",lookup,True,False,False,True,False,False,1,5,5,1.0,,,,True,True,True,True,True,True,0.011
+13,2025,CSV,Rank the top 5 agencies by earned revenue in FY2025.,ranking,True,True,False,True,True,False,1,5,5,1.0,True,,,True,True,True,True,True,True,0.014
+14,2025,CSV,"Were any FY2024 agency net cost figures restated in the FY2025 report, and by how much?",restatement,True,True,False,True,True,False,1,12,12,1.0,,,,True,True,True,True,True,True,0.006
+15,2025,CSV,"Compare the net cost of HHS, SSA, and DoD between FY2024 and FY2025.",comparison,True,True,False,True,True,False,4,12,12,1.0,,,,True,True,True,True,True,True,0.022
